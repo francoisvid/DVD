@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BeFlix</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./bootstrap.css">
+        <link rel="stylesheet" href="./css.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><b>Be</b>Flix</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample02">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Séries TV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Films</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ajouts récents</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ma liste</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-md-0">
+                    <input class="form-control" type="text" placeholder="Search">
+                </form>
+            </div>
+        </nav>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>Example headline.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Another example headline.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1>One more for good measure.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="jumbotron" style="background-image: url(./image/fond.jpg); background-size: 100%; background-repeat: no-repeat">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <article class="col-sm-2">
+                            <h2>JURASSIC WORLD</h2>
+                            <a href="./Jurassic.html"><img src="./image/Jurassic.jpg"  height=" 200" alt="Jurassic" />
+                                <style type="text/css">#lirelasuites {display:none;}</style>
+                                <p>
+                                <p><a href="#nogo" onclick="document.getElementById('lirelasuites').style.display = 'block'; this.style.display = 'none';"><button type="button" class="btn btn-info">Suite...</button></a></p> 
+                                <p id="lirelasuites">L'Indominus Rex, un dinosaure génétiquement modifié, pure création de la scientifique Claire Dearing,
+                                    sème la terreur dans le fameux parc d'attraction. Les espoirs de mettre fin à cette menace reptilienne
+                                    se portent alors sur le dresseur de raptors Owen Grady et sa cool attitude.
+                                </p>
+                        </article>
+                        <article class="col-sm-2">
+                            <h2>TOMB RAIDER</h2>
+                            <a href="./Tomberraider.html"><img src="./image/ok.jpg"  height=" 200" alt="ok" />   
+                                <style type="text/css">#lirelasuite {display:none;}</style>
+                                <p>
+                                <p><a href="#nogo" onclick="document.getElementById('lirelasuite').style.display = 'block'; this.style.display = 'none';"><button type="button" class="btn btn-info">Suite...</button></a></p>
+                                <p id="lirelasuite">Lara Croft, 21 ans, n'a ni projet, ni ambition : fille d'un explorateur excentrique porté disparu depuis sept ans,
+                                    cette jeune femme rebelle et indépendante refuse de reprendre l'empire de son père. Convaincue qu'il n'est pas 
+                                    mort, elle met le cap sur la destination où son père a été vu pour la dernière fois : la tombe légendaire d'une île 
+                                    mythique au large du Japon. Mais le voyage se révèle des plus périlleux et il lui faudra affronter d'innombrables
+                                    ennemis et repousser ses propres limites pour devenir "Tomb Raider"…</p> 
+                                </p>                          
+                        </article>
+                        <article class="col-sm-2">
+                            <h2>FORREST GUMP</h2>
+                            <a href="Forrest.html"><img src="./image/forrest.jpg"  height=" 200" alt="forrest" />
+                                <style type="text/css">#lirelasuitess {display:none;}</style>
+                                <p>
+                                <p><a href="#nogo" onclick="document.getElementById('lirelasuitess').style.display = 'block'; this.style.display = 'none';"><button type="button" class="btn btn-info">Suite...</button></a></p>
+                                <p id="lirelasuitess">Au début du film, Tom Hanks est assis sur un banc pendant de longues minutes. C'est là qu'il commence à raconter
+                                    sa vie aux passants en prononçant cette fameuse phrase : "Ma Maman disait toujours, la vie, c'est comme une boîte
+                                    de chocolats, on sait jamais sur quoi on va tomber". Depuis, le film est devenu culte et le fameux banc a été conservé
+                                    dans un musée, en Géorgie.</p> 
+                                </p>                          
+                        </article>
+                        <article class="col-sm-2">
+                            <h2>COCO</h2>
+                            <a href="Forrest.html"><img src="./image/coco.jpg"  height=" 200" alt="coco" />
+                                <style type="text/css">#lirelasuit{display:none;}</style>
+                                <p>
+                                <p><a href="#nogo" onclick="document.getElementById('lirelasuit').style.display = 'block'; this.style.display = 'none';"><button type="button" class="btn btn-info">Suite...</button></a></p>
+                                <p id="lirelasuit">Au début du film, Tom Hanks est assis sur un banc pendant de longues minutes. C'est là qu'il commence à raconter
+                                    sa vie aux passants en prononçant cette fameuse phrase : "Ma Maman disait toujours, la vie, c'est comme une boîte
+                                    de chocolats, on sait jamais sur quoi on va tomber". Depuis, le film est devenu culte et le fameux banc a été conservé
+                                    dans un musée, en Géorgie.</p> 
+                                </p>                          
+                        </article>
+                        <article class="col-sm-2">
+                            <h2>FORREST GUMP</h2>
+                            <a href="Forrest.html"><img src="./image/forrest.jpg"  height=" 200" alt="forrest" />
+                                <style type="text/css">#lirelasuitess {display:none;}</style>
+                                <p>
+                                <p><a href="#nogo" onclick="document.getElementById('lirelasuitess').style.display = 'block'; this.style.display = 'none';"><button type="button" class="btn btn-info">Suite...</button></a></p>
+                                <p id="lirelasuitess">Au début du film, Tom Hanks est assis sur un banc pendant de longues minutes. C'est là qu'il commence à raconter
+                                    sa vie aux passants en prononçant cette fameuse phrase : "Ma Maman disait toujours, la vie, c'est comme une boîte
+                                    de chocolats, on sait jamais sur quoi on va tomber". Depuis, le film est devenu culte et le fameux banc a été conservé
+                                    dans un musée, en Géorgie.</p> 
+                                </p>                          
+                        </article>
+                        <article class="col-sm-2">
+                            <h2>FORREST GUMP</h2>
+                            <a href="Forrest.html"><img src="./image/forrest.jpg"  height=" 200" alt="forrest" />
+                                <style type="text/css">#lirelasuitess {display:none;}</style>
+                                <p>
+                                <p><a href="#nogo" onclick="document.getElementById('lirelasuitess').style.display = 'block'; this.style.display = 'none';"><button type="button" class="btn btn-info">Suite...</button></a></p>
+                                <p id="lirelasuitess">Au début du film, Tom Hanks est assis sur un banc pendant de longues minutes. C'est là qu'il commence à raconter
+                                    sa vie aux passants en prononçant cette fameuse phrase : "Ma Maman disait toujours, la vie, c'est comme une boîte
+                                    de chocolats, on sait jamais sur quoi on va tomber". Depuis, le film est devenu culte et le fameux banc a été conservé
+                                    dans un musée, en Géorgie.</p> 
+                                </p>                          
+                        </article>
+                        <article class="col-sm-2">
+                            <h2>FORREST GUMP</h2>
+                            <a href="Forrest.html"><img src="./image/forrest.jpg"  height=" 200" alt="forrest" />
+                                <style type="text/css">#lirelasuitess {display:none;}</style>
+                                <p>
+                                <p><a href="#nogo" onclick="document.getElementById('lirelasuitess').style.display = 'block'; this.style.display = 'none';"><button type="button" class="btn btn-info">Suite...</button></a></p>
+                                <p id="lirelasuitess">Au début du film, Tom Hanks est assis sur un banc pendant de longues minutes. C'est là qu'il commence à raconter
+                                    sa vie aux passants en prononçant cette fameuse phrase : "Ma Maman disait toujours, la vie, c'est comme une boîte
+                                    de chocolats, on sait jamais sur quoi on va tomber". Depuis, le film est devenu culte et le fameux banc a été conservé
+                                    dans un musée, en Géorgie.</p> 
+                                </p>                          
+                        </article>
+                        <article class="col-sm-2">
+                            <h2>FORREST GUMP</h2>
+                            <a href="Forrest.html"><img src="./image/forrest.jpg"  height=" 200" alt="forrest" />
+                                <style type="text/css">#lirelasuitess {display:none;}</style>
+                                <p>
+                                <p><a href="#nogo" onclick="document.getElementById('lirelasuitess').style.display = 'block'; this.style.display = 'none';"><button type="button" class="btn btn-info">Suite...</button></a></p>
+                                <p id="lirelasuitess">Au début du film, Tom Hanks est assis sur un banc pendant de longues minutes. C'est là qu'il commence à raconter
+                                    sa vie aux passants en prononçant cette fameuse phrase : "Ma Maman disait toujours, la vie, c'est comme une boîte
+                                    de chocolats, on sait jamais sur quoi on va tomber". Depuis, le film est devenu culte et le fameux banc a été conservé
+                                    dans un musée, en Géorgie.</p> 
+                                </p>                          
+                        </article>
+                        <article class="col-sm-2">
+                            <h2>FORREST GUMP</h2>
+                            <a href="Forrest.html"><img src="./image/forrest.jpg"  height=" 200" alt="forrest" />
+                                <style type="text/css">#lirelasuitess {display:none;}</style>
+                                <p>
+                                <p><a href="#nogo" onclick="document.getElementById('lirelasuitess').style.display = 'block'; this.style.display = 'none';"><button type="button" class="btn btn-info">Suite...</button></a></p>
+                                <p id="lirelasuitess">Au début du film, Tom Hanks est assis sur un banc pendant de longues minutes. C'est là qu'il commence à raconter
+                                    sa vie aux passants en prononçant cette fameuse phrase : "Ma Maman disait toujours, la vie, c'est comme une boîte
+                                    de chocolats, on sait jamais sur quoi on va tomber". Depuis, le film est devenu culte et le fameux banc a été conservé
+                                    dans un musée, en Géorgie.</p> 
+                                </p>                          
+                        </article>
+                        <article class="col-sm-2">
+                            <h2>FORREST GUMP</h2>
+                            <a href="Forrest.html"><img src="./image/forrest.jpg"  height=" 200" alt="forrest" />
+                                <style type="text/css">#lirelasuitess {display:none;}</style>
+                                <p>
+                                <p><a href="#nogo" onclick="document.getElementById('lirelasuitess').style.display = 'block'; this.style.display = 'none';"><button type="button" class="btn btn-info">Suite...</button></a></p>
+                                <p id="lirelasuitess">Au début du film, Tom Hanks est assis sur un banc pendant de longues minutes. C'est là qu'il commence à raconter
+                                    sa vie aux passants en prononçant cette fameuse phrase : "Ma Maman disait toujours, la vie, c'est comme une boîte
+                                    de chocolats, on sait jamais sur quoi on va tomber". Depuis, le film est devenu culte et le fameux banc a été conservé
+                                    dans un musée, en Géorgie.</p> 
+                                </p>                          
+                        </article>
+                        <article class="col-sm-2">
+                            <h2>FORREST GUMP</h2>
+                            <a href="Forrest.html"><img src="./image/forrest.jpg"  height=" 200" alt="forrest" />
+                                <style type="text/css">#lirelasuitess {display:none;}</style>
+                                <p>
+                                <p><a href="#nogo" onclick="document.getElementById('lirelasuitess').style.display = 'block'; this.style.display = 'none';"><button type="button" class="btn btn-info">Suite...</button></a></p>
+                                <p id="lirelasuitess">Au début du film, Tom Hanks est assis sur un banc pendant de longues minutes. C'est là qu'il commence à raconter
+                                    sa vie aux passants en prononçant cette fameuse phrase : "Ma Maman disait toujours, la vie, c'est comme une boîte
+                                    de chocolats, on sait jamais sur quoi on va tomber". Depuis, le film est devenu culte et le fameux banc a été conservé
+                                    dans un musée, en Géorgie.</p> 
+                                </p>                          
+                        </article>
+                        <article class="col-sm-2">
+                            <h2>FORREST GUMP</h2>
+                            <a href="Forrest.html"><img src="./image/forrest.jpg"  height=" 200" alt="forrest" />
+                                <style type="text/css">#lirelasuitess {display:none;}</style>
+                                <p>
+                                <p><a href="#nogo" onclick="document.getElementById('lirelasuitess').style.display = 'block'; this.style.display = 'none';"><button type="button" class="btn btn-info">Suite...</button></a></p>
+                                <p id="lirelasuitess">Au début du film, Tom Hanks est assis sur un banc pendant de longues minutes. C'est là qu'il commence à raconter
+                                    sa vie aux passants en prononçant cette fameuse phrase : "Ma Maman disait toujours, la vie, c'est comme une boîte
+                                    de chocolats, on sait jamais sur quoi on va tomber". Depuis, le film est devenu culte et le fameux banc a été conservé
+                                    dans un musée, en Géorgie.</p> 
+                                </p>                          
+                        </article>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </body>
+</html>

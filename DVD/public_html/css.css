@@ -1,0 +1,26 @@
+
+.bg-dark{
+    background-color: yellow;
+}
+
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+body{
+    height: 100%;
+}
+
+
+p{
+    text-align: left;
+}
+ 
+.btn btn-primary btn-lg{
+   text-align:  center;
+}
